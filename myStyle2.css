@@ -95,7 +95,7 @@ body{
     height: 8px;
     background-color: white;
     border-radius: 5px;
-    top: 8%; 
+    top: 7%; 
     left: 20%;
     transition: width 0.4s ease-out;  
 }
@@ -106,7 +106,7 @@ body{
     height: 8px;
     background-color: rgb(180, 180, 180);
     border-radius: 5px;
-    top: 8%; 
+    top: 7%; 
     left: 20%;
     transition: width 0.4s ease-out;  
 }
@@ -168,7 +168,7 @@ body{
         height: 6px;
         background-color: white;
         border-radius: 5px;
-        top: 7%; 
+        top: 5%; 
         left: 21%;
         transition: width 0.4s ease-out;
     }
@@ -179,7 +179,7 @@ body{
         height: 6px;
         background-color: rgb(180, 180, 180);
         border-radius: 5px;
-        top: 7%; 
+        top: 5%; 
         left: 21%;
         transition: width 0.4s ease-out;  
     }
