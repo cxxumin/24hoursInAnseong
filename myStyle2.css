@@ -40,6 +40,7 @@ body{
 }
 
 .textOverlay {
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
     top: 5%; 
     left: 5%; 
@@ -53,6 +54,7 @@ body{
 
 
 .textOverlay2 {
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
     top: 5%; 
     left: 88%; 
@@ -65,6 +67,7 @@ body{
 }
 
 .textOverlay3 {
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
     top: 5%; 
     left: 5%; 
@@ -113,6 +116,7 @@ body{
 
 @media all and (max-width: 768px) {
     .textOverlay {
+        font-family: 'Noto Sans KR', sans-serif;
         position: absolute;
         top: 5%; 
         left: 5%; 
@@ -126,6 +130,7 @@ body{
     
     
     .textOverlay2 {
+        font-family: 'Noto Sans KR', sans-serif;
         position: absolute;
         top: 5%; 
         left: 83%; 
@@ -138,6 +143,7 @@ body{
     }
 
     .textOverlay3 {
+        font-family: 'Noto Sans KR', sans-serif;
         position: absolute;
         top: 5%; 
         left: 5%; 
@@ -151,6 +157,7 @@ body{
     
     
     .textOverlay4 {
+        font-family: 'Noto Sans KR', sans-serif;
         position: absolute;
         top: 5%; 
         left: 83%; 
