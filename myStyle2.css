@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+#contentsC{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.videoBox
+{
+    width: 100%;
+}
+
+#myVideo{
+    width: 100%;
+}
+
+.sa {
+    position: relative;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 5%; 
+    left: 5%; 
+    
+   
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.textOverlay2 {
+    position: absolute;
+    top: 5%; 
+    left: 88%; 
+    
+   
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.textOverlay3 {
+    position: absolute;
+    top: 5%; 
+    left: 5%; 
+    
+   
+    color: rgb(180, 180, 180);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.textOverlay4 {
+    position: absolute;
+    top: 5%; 
+    left: 88%; 
+    
+   
+    color: rgb(180, 180, 180);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#whiteRectangle {
+    position: fixed;
+    width: 0%;
+    height: 8px;
+    background-color: white;
+    border-radius: 5px;
+    top: 6%; 
+    left: 20%;
+    transition: width 0.4s ease-out;  
+}
+
+#grayRectangle {
+    position: fixed;
+    width: 0%;
+    height: 8px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    top: 6%; 
+    left: 20%;
+    transition: width 0.4s ease-out;  
+}
+
+@media all and (max-width: 768px) {
+    .textOverlay {
+        position: absolute;
+        top: 5%; 
+        left: 5%; 
+        
+       
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    
+    .textOverlay2 {
+        position: absolute;
+        top: 5%; 
+        left: 83%; 
+        
+       
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .textOverlay3 {
+        position: absolute;
+        top: 5%; 
+        left: 5%; 
+        
+       
+        color: rgb(180, 180, 180);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    
+    .textOverlay4 {
+        position: absolute;
+        top: 5%; 
+        left: 83%; 
+        
+       
+        color: rgb(180, 180, 180);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #whiteRectangle {
+        position: fixed;
+        width: 0%;
+        height: 6px;
+        background-color: white;
+        border-radius: 5px;
+        top: 6%; 
+        left: 21%;
+        transition: width 0.4s ease-out;
+    }
+
+    #grayRectangle {
+        position: fixed;
+        width: 0%;
+        height: 6px;
+        background-color: rgb(180, 180, 180);
+        border-radius: 5px;
+        top: 6%; 
+        left: 21%;
+        transition: width 0.4s ease-out;  
+    }
+
+}
